@@ -370,8 +370,8 @@ nav a:active {
  
 /*¡-------------------------/responsive 600px/-------------------------*/
 @media screen and (max-width: 600px) {
-
-	h2 h3 {
+	
+	body {
 		font-size: 0.75em;
 	}	
 	
@@ -381,7 +381,9 @@ nav a:active {
 		max-width: 600px;
 	}
 	
-	
+	main {
+		flex-direction: column;
+	}
 	
 	
 	
