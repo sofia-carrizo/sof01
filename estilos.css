@@ -29,8 +29,8 @@ main {
 
 .columna-derecha {
 	background-color: #D3B46C;
-	width: 22%;
-	height: 900px;
+	width: 250px;
+	height: 850%;
 	margin-top: 30px;
 	padding-bottom: 20px;
 	display: flex;
@@ -374,20 +374,36 @@ nav a:active {
 	body {
 		font-size: 0.75em;
 	}	
-	
+/*¡-------------------------/botonera/-------------------------*/	
 	nav {
+		background-color: #D3B46C;
+		padding-left: 100px;
+		margin-right: 60px;
+		display: flex;
+	}
+	 
+	main {
 		flex-direction: column;
-		width: 100%;
-		max-width: 600px;
+		
+	}
+
+/*¡-------------------------/responsive 600px/-------------------------*/	
+	
+	.columna-derecha {
+	 padding-top: 10px;
+	margin-top: 60px;
+	}
+	
+nav ul {
+		flex-direction: column;
 	}
 	
 	main {
-		flex-direction: column;
 		align-items: center;
+		display: flex;
+    	justify-content:space-between; 
 	}
 	
-	
-	
-	
-	
-	
+	.experiencia {
+		margin-top: 20px; 
+	}
